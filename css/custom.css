@@ -1,0 +1,67 @@
+body {
+	max-width:1200px;
+	margin:0 auto;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.header {
+	margin-top: 30px;
+}
+
+.header .row div:nth-child(1) {
+	text-align:center;
+}
+
+.header .row div:nth-child(1) img{
+	margin:10px;
+}
+
+.header .row div:nth-child(2){
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border:2px solid #003d5c;
+}
+
+.header .row div:nth-child(2) h3{
+	color:#777;
+}
+
+.header .row div:nth-child(2),
+.header .row div:nth-child(3){
+    margin-top: 13px;
+}
+
+
+
+
+/********************************* Reloj ****************************************/
+
+.header .row div:nth-child(3) .clock{
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border:2px solid #003d5c;
+	padding: 19px 20px;
+}
+
+.header .row div:nth-child(3) .clock {
+    color: #777;
+}
+
+.header .row div:nth-child(3) .clock ul {
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+}
+
+.header .row div:nth-child(3) .clock ul li {
+    margin:0px;
+    display: inline;
+    font-size: 50px;
+}
+
+.header .row div:nth-child(3) .point {
+    position: relative;
+}
+
